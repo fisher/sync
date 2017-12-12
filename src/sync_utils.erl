@@ -13,7 +13,6 @@
          get_system_modules/0
 ]).
 
--compile(export_all).
 
 get_src_dir_from_module(Module)->
     case code:is_loaded(Module) of
